@@ -1,0 +1,848 @@
+@font-face{
+    font-family: myupper;
+    src:url(grifterbold.otf);
+}
+
+@font-face{
+    font-family: mylower;
+    src:url(EudoxusSans-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* average screen of laptop */
+/* page 1*/
+
+#page1{
+    background-color: #E0D6CC;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back1{
+    color: #ffff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back1 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back1 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back1 #img1{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#flex {
+    display: flex;
+    padding-top: 125px;
+    padding-left: 45px;
+}
+
+#flex h3,h4{
+    font-family: myupper;
+}
+
+#flex #info{
+    padding-right: 103px;
+}
+
+/* page 2*/
+
+#page2{
+    background-color: #000000;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back2{
+    color: #000000;
+    margin: auto;
+    width: 542px;
+    background-color: #E0D6CC;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back2 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back2 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back2 #img2{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#star-img{
+    position: absolute;
+    top: 1015px;
+    left: 650px
+}
+
+
+/* page 3*/
+#page3{
+    background-color: hsl(14, 83%, 66%);
+    width: auto;
+    height: 1000px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back3{
+    color: #fff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 900px;
+    padding-top: 30px;
+}
+
+#back3 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+    position: absolute;
+}
+
+#back3 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+    position: absolute;
+    top: 2650px;
+}
+
+#back3 #img3{
+    padding-top: 64px;
+    padding-left: 48px;
+    position: absolute;
+    top: 2490px;
+}
+
+#org-img{
+    position: absolute;
+    top: 2181px;
+    left: 406px;
+    width: 543px;
+    height: 333px;
+}
+
+#back3 #flex{
+    position: absolute;
+    top: 2850px;
+}
+
+/* long screen of laptop */
+@media only screen and (min-width: 1500px) {
+
+    /* page 1*/
+
+#page1{
+    background-color: #E0D6CC;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back1{
+    color: #ffff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back1 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back1 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back1 #img1{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#flex {
+    display: flex;
+    padding-top: 125px;
+    padding-left: 45px;
+}
+
+#flex h3,h4{
+    font-family: myupper;
+}
+
+#flex #info{
+    padding-right: 103px;
+}
+
+/* page 2*/
+
+#page2{
+    background-color: #000000;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back2{
+    color: #000000;
+    margin: auto;
+    width: 542px;
+    background-color: #E0D6CC;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back2 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back2 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back2 #img2{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#star-img{
+    position: absolute;
+    top: 1015px;
+    left: 730px;
+}
+
+
+/* page 3*/
+#page3{
+    background-color: hsl(14, 83%, 66%);
+    width: auto;
+    height: 1000px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back3{
+    color: #fff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 900px;
+    padding-top: 30px;
+}
+
+#back3 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+    position: absolute;
+}
+
+#back3 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+    position: absolute;
+    top: 2650px;
+}
+
+#back3 #img3{
+    padding-top: 64px;
+    padding-left: 48px;
+    position: absolute;
+    top: 2490px;
+}
+
+#org-img{
+    position: absolute;
+    top: 2181px;
+    left: 478px;
+    width: 543px;
+    height: 333px;
+}
+
+#back3 #flex{
+    position: absolute;
+    top: 2850px;
+}
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+ /* page 1*/
+
+ #page1{
+    background-color: #E0D6CC;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back1{
+    color: #ffff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back1 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back1 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back1 #img1{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#flex {
+    display: flex;
+    padding-top: 125px;
+    padding-left: 45px;
+}
+
+#flex h3,h4{
+    font-family: myupper;
+}
+
+#flex #info{
+    padding-right: 103px;
+}
+
+/* page 2*/
+
+#page2{
+    background-color: #000000;
+    width: auto;
+    height: 837px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back2{
+    color: #000000;
+    margin: auto;
+    width: 542px;
+    background-color: #E0D6CC;
+    height: 633px;
+    padding-top: 30px;
+}
+
+#back2 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+}
+
+#back2 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+}
+
+#back2 #img2{
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+#star-img{
+    position: absolute;
+    top: 1015px;
+    left: 830px;
+}
+
+
+/* page 3*/
+#page3{
+    background-color: hsl(14, 83%, 66%);
+    width: auto;
+    height: 1000px;
+    padding-top: 169px;
+    padding-left: 406px;
+    padding-right: 406px
+}
+
+#back3{
+    color: #fff;
+    margin: auto;
+    width: 542px;
+    background-color: #000000;
+    height: 900px;
+    padding-top: 30px;
+}
+
+#back3 h2{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: myupper;
+    position: absolute;
+}
+
+#back3 h1{
+    font-size: 48px;
+    padding-left: 50px;
+    font-family: myupper;
+    position: absolute;
+    top: 2650px;
+}
+
+#back3 #img3{
+    padding-top: 64px;
+    padding-left: 48px;
+    position: absolute;
+    top: 2490px;
+}
+
+#org-img{
+    position: absolute;
+    top: 2181px;
+    left: 572px;
+    width: 543px;
+    height: 333px;
+}
+
+#back3 #flex{
+    position: absolute;
+    top: 2850px;
+}
+
+}
+
+/* tablet */
+@media only screen and (max-width: 1100px) {
+
+    /* page 1*/
+
+    #page1{
+        background-color: #E0D6CC;
+        width: auto;
+        height: 837px;
+        padding-top: 169px;
+        padding-left: 300px;
+        padding-right: 406px;
+    }
+    
+    #back1{
+        color: #ffff;
+        margin: auto;
+        width: 542px;
+        background-color: #000000;
+        height: 633px;
+        padding-top: 30px;
+    }
+    
+    #back1 h2{
+        padding-top: 45px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-family: myupper;
+    }
+    
+    #back1 h1{
+        font-size: 48px;
+        padding-left: 50px;
+        font-family: myupper;
+    }
+    
+    #back1 #img1{
+        padding-top: 64px;
+        padding-left: 48px;
+    }
+    
+    #flex {
+        display: flex;
+        padding-top: 125px;
+        padding-left: 45px;
+    }
+    
+    #flex h3,h4{
+        font-family: myupper;
+    }
+    
+    #flex #info{
+        padding-right: 103px;
+    }
+    
+    /* page 2*/
+    
+    #page2{
+        background-color: #000000;
+        width: auto;
+        height: 837px;
+        padding-top: 169px;
+        padding-left: 300px;
+        padding-right: 406px
+    }
+    
+    #back2{
+        color: #000000;
+        margin: auto;
+        width: 542px;
+        background-color: #E0D6CC;
+        height: 633px;
+        padding-top: 30px;
+    }
+    
+    #back2 h2{
+        padding-top: 45px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-family: myupper;
+    }
+    
+    #back2 h1{
+        font-size: 48px;
+        padding-left: 50px;
+        font-family: myupper;
+    }
+    
+    #back2 #img2{
+        padding-top: 64px;
+        padding-left: 48px;
+    }
+    
+    #star-img{
+        position: absolute;
+        top: 1015px;
+        left: 560px;
+    }
+    
+    
+    /* page 3*/
+    #page3{
+        background-color: hsl(14, 83%, 66%);
+        width: auto;
+        height: 1000px;
+        padding-top: 169px;
+        padding-left: 300px;
+        padding-right: 406px
+    }
+    
+    #back3{
+        color: #fff;
+        margin: auto;
+        width: 542px;
+        background-color: #000000;
+        height: 900px;
+        padding-top: 30px;
+    }
+    
+    #back3 h2{
+        padding-top: 45px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-family: myupper;
+        position: absolute;
+    }
+    
+    #back3 h1{
+        font-size: 48px;
+        padding-left: 50px;
+        font-family: myupper;
+        position: absolute;
+        top: 2650px;
+    }
+    
+    #back3 #img3{
+        padding-top: 64px;
+        padding-left: 48px;
+        position: absolute;
+        top: 2490px;
+    }
+    
+    #org-img{
+        position: absolute;
+        top: 2181px;
+        left: 300px;
+        width: 543px;
+        height: 333px;
+    }
+    
+    #back3 #flex{
+        position: absolute;
+        top: 2850px;
+    }
+    
+}
+
+/* mobile */
+@media only screen and (max-width: 550px) {
+
+    /* page 1*/
+
+    #page1{
+        background-color: #E0D6CC;
+        width: 550px;
+        height: 837px;
+        padding-top: 100px;
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+    
+    #back1{
+        color: #ffff;
+        margin: auto;
+        width: 500px;
+        background-color: #000000;
+        height: 644px;
+        padding-top: 30px;
+    }
+    
+    #back1 h2{
+        padding-top: 45px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-family: myupper;
+    }
+    
+    #back1 h1{
+        font-size: 48px;
+        padding-left: 50px;
+        font-family: myupper;
+    }
+    
+    #back1 #img1{
+        padding-top: 64px;
+        padding-left: 48px;
+    }
+    
+    #flex {
+        display: flex;
+        padding-top: 125px;
+        padding-left: 45px;
+    }
+    
+    #flex h3,h4{
+        font-family: myupper;
+    }
+    
+    #flex #info{
+        padding-right: 103px;
+    }
+}
+
+@media only screen and (max-width: 375px) {  
+    /* page1 */
+    #page1{
+        background-color: #E0D6CC;
+        width: auto;
+        height: 600px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 100px
+    }
+    
+    #back1{
+        color: #ffff;
+        margin: auto;
+        width: 300px;
+        background-color: #000000;
+        height: 530px;
+        padding-top: 30px;
+    }
+    
+    #back1 h2{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 30px;
+        font-family: myupper;
+    }
+    
+    #back1 h1{
+        font-size: 35px;
+        padding-left: 30px;
+        font-family: myupper;
+    }
+    
+    #back1 #img1{
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    
+    #flex {
+        display: flex;
+        padding-top: 180px;
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    
+    #flex h3,h4{
+        font-family: myupper;
+    }
+    
+    #flex #info{
+        padding-right: 10px;
+    }
+    
+    /*page2*/
+    
+    #page2{
+        background-color: #000000;
+        width: auto;
+        height: 600px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 100px
+    }
+    
+    #back2{
+        color: #000000;
+        margin: auto;
+        width: 300px;
+        background-color: #E0D6CC;
+        height: 540px;
+        padding-top: 0px;
+    }
+    
+    #back2 h2{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 30px;
+        font-family: myupper;
+    }
+    
+    #back2 h1{
+        font-size: 35px;
+        padding-left: 30px;
+        font-family: myupper;
+    }
+    
+    #back2 #img2{
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    
+    #star-img{
+        position: absolute;
+        top: 615px;
+        left: 170px;
+        height: 180px;
+    }
+    
+    /*page3*/
+    #page3{
+        background-color: hsl(14, 83%, 66%);
+        width: auto;
+        height: 670px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 100px
+    }
+    
+    
+    #back3{
+        color: #fff;
+        margin: auto;
+        width: 300px;
+        background-color: #000000;
+        height: 590px;
+        padding-top: 30px;
+    }
+    
+    #back3 h2{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 30px;
+        font-family: myupper;
+        position: absolute;
+    }
+    
+    #back3 h1{
+        font-size: 35px;
+        padding-left: 30px;
+        font-family: myupper;
+        position: absolute;
+        top: 1640px;
+    }
+    
+    #back3 #img3{
+        padding-top: 10px;
+        padding-left: 30px;
+        position: absolute;
+        top: 1560px;
+    }
+    
+    #org-img{
+        position: absolute;
+        top: 1350px;
+        left: 40px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #back3 #flex{
+        position: absolute;
+        top: 1700px;
+    }
+}
